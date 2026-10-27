@@ -256,7 +256,7 @@ $(function () {
         const move = Math.floor(Math.random() * 80) + "px";
         const time = Math.floor(Math.random() * 20) + 5 + "s";
         const $msgbox = $(`
-                <div class="msg pa z-0 card px-3 py-2 bg-wt blur bor-bt rounded-5 " style="
+                <div class="msg pa z-0 card px-3 py-2 bg-wt blur bor-bt rounded-4 " style="
                     --left:${left};
                     --move:${move};
                     --time:${time};
